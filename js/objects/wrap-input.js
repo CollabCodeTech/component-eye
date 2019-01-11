@@ -3,11 +3,8 @@ const $inputCollab = $wrapInput.querySelector(".input-collab");
 const $eyeCollab = $wrapInput.querySelector(".eye-collab");
 
 $eyeCollab.addEventListener("click", () => {
-  if ($wrapInput.classList.contains("-show")) {
-    $inputCollab.setAttribute("type", "password");
-  } else {
-    $inputCollab.setAttribute("type", "text");
-  }
+  $inputCollab.type == "password" ? $type='text' :$type="password"
+  $inputCollab.setAttribute('type',$type)
 
   $wrapInput.classList.toggle("-show");
 });
