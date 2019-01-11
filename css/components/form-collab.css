@@ -1,0 +1,8 @@
+.form-collab {
+  box-sizing: border-box;
+  width: 40vw;
+  border: 1px solid #6c5ce7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}

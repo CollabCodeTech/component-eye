@@ -1,0 +1,7 @@
+.input-collab {
+  border-bottom: 1px solid #e84393;
+}
+
+.input-collab:not(.-password) {
+  margin-bottom: 30px;
+}

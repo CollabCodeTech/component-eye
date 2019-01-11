@@ -1,0 +1,8 @@
+.wrap-input {
+  display: inline-block;
+  position: relative;
+}
+
+.wrap-input.-show > .eye-collab {
+  background-image: url(../../img/eye-show.svg);
+}
